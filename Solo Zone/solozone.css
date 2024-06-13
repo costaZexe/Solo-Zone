@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-image: url(/blackgrey.jpg);
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color:blueviolet;
+    text-decoration: none;
+}
+
+.btn-secondary {
+    float: right;
+    margin-top: 10px;
+    margin-right: 4px;
+}
+
+.btn-secondary:hover {
+    color: blueviolet;
+}
+
+.header {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+}
+
+.sum {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 5px;
+    margin-bottom: 100px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.apex-icon {
+    display: flex;
+    float: left;
+    height: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.apexvid {
+    margin-left: 10px;
+}
+
+.h1 {
+    display: flex;
+    float: right;
+    color: white;
+    text-align: center;
+    margin-left: 300px;
+    padding-left: 40%;
+    margin-top: -300px;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.r6-icon {
+    display: flex;
+    float: left;
+    height: 250px;
+    margin-left: 30px;
+    margin-right: 350px; 
+    margin-top: 100px;
+}
+
+iframe {
+    margin: auto;
+    display: inline;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.r6vid {
+    display: flex;
+    float: left;
+    margin-top: 100px;
+    margin-left: -270px;
+}
+
+.h2-r6 {
+    float: right;
+    font-size: 5px;
+    color: white;
+    margin-left: 100px;
+    padding-left: 30%;
+    text-align: center;
+    margin-left: 300px;
+    padding-left: 40%;
+    margin-top: -300px;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.cs2-icon {
+    display: flex;
+    float: left;
+    height: 250px;
+    margin-left: 30px;
+    margin-right: 50px; 
+    margin-top: 100px;
+}
+
+.cs2vid {
+display:flex;
+float: left;
+margin-top:100px;
+margin-left: 20px;
+}
+
+.h2-cs2 {
+    float: right;
+    font-size: 5px;
+    color: white;
+    margin-left: 100px;
+    padding-left: 30%;
+    text-align: center;
+    margin-left: 300px;
+    padding-left: 40%;
+    margin-top: -300px;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.img {
+    height: 500px;
+    width: auto;
+    display: flex;
+    float: left;
+    margin-top: 200px;
+    margin-left: 100px;
+    border-radius: 8%;
+}
+
+.list-group {
+    display:flex;
+    float: left;
+    margin-top: 300px;
+    margin-left: 200px;
+    font-size: 20px;
+    list-style: none;
+}
+
+footer  h2 {
+    color:white;
+    font-size: 25px;
+    display: flex;
+    float:left;
+    align-items: center;
+    margin-top: 360px;
+    margin-right: 200px;
+    margin-left: 400px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.fa-facebook {
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    float: left;
+    color: blueviolet;
+    margin-top: 430px;
+    margin-right: 200px;
+    margin-left: -550px;
+}
+
+.fa-facebook:hover {
+    color: papayawhip;
+}
+
+.fa-square-x-twitter {
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    float: left;
+    color: blueviolet;
+    margin-top: 430px;
+    margin-right: 200px;
+    margin-left: -460px;
+}
+
+.fa-square-x-twitter:hover {
+    color:papayawhip;
+}
+
+.fa-square-instagram {
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    float: left;
+    color: blueviolet;
+    margin-top: 430px;
+    margin-right: 200px;
+    margin-left: -380px;
+}
+
+.fa-square-instagram:hover {
+    color: papayawhip;
+}

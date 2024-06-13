@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/blackgrey.jpg);
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color:blueviolet;
+    text-decoration: none;
+}
+
+.btn-secondary {
+    float: right;
+    margin-top: 10px;
+    margin-right: 4px;
+}
+
+.btn-secondary:hover {
+    color: blueviolet;
+}
+
+.header1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Kanit', sans-serif;
+    margin-left: 150px;
+    text-transform: uppercase;
+}
+
+.about {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 100px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.img1 {
+    width: 50%;
+    margin-left: 600px;
+    border-radius: 15%;
+}
+
+.par {
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+    margin-right: 50px;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+
+.textbox {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-left: 1000px;
+}
+
+#btn {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-right: 1000px;
+    margin-bottom: 100px;
+    margin-top: -40px;
+}
+
+
+footer h2 {
+    color:white;
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    margin-top: 200px;
+    margin-right: 200px;
+    margin-left: 1000px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.fa-facebook {
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    float: left;
+    color: blueviolet;
+    margin-top: 30px;
+    margin-left: 1050px;
+}
+
+.fa-facebook:hover {
+    color: papayawhip;
+}
+
+
+.fa-square-x-twitter {
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    float: left;
+    color: blueviolet;
+    margin-top: 30px;
+    margin-right: 950px;
+    margin-left: 30px;
+    padding-left: 40px;
+}
+
+.fa-square-x-twitter:hover {
+    color:papayawhip;
+}
+
+
+.fa-square-instagram {
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    float: left;
+    color: blueviolet;
+    margin-top: -40px;
+    margin-left: 1230px;
+    padding-left: 50px;
+}
+
+.fa-square-instagram:hover {
+    color: papayawhip;
+}
